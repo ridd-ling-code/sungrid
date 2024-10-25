@@ -1,4 +1,4 @@
-import Layout from '@/app/layout.tsx';
+import Layout from '@/app/layout';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { LineChart, BarChart } from '@/components/ui/chart';
 
