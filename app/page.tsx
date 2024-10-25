@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from 'react';
 import { Bell, User, Sun, BarChart2, Clock, PiggyBank } from 'lucide-react';
 
