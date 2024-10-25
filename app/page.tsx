@@ -1,5 +1,5 @@
 "use client";
-
+import './globals.css';
 import React from 'react';
 import { Bell, User, Sun, BarChart2, Clock, PiggyBank } from 'lucide-react';
 
