@@ -1,11 +1,9 @@
 "use client";
 
-import React, { useState } from 'react';
+import React from 'react';
 import { Bell, User, Sun, BarChart2, Clock, PiggyBank } from 'lucide-react';
 
 const HomePage = () => {
-  const [hoveredCard, setHoveredCard] = useState(null);
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
       {/* Navigation Bar with Glass Effect */}
@@ -79,12 +77,10 @@ const HomePage = () => {
               color: 'from-indigo-500 to-indigo-600',
               hoverColor: 'group-hover:from-indigo-600 group-hover:to-indigo-700'
             }
-          ].map((feature, index) => (
+          ].map((feature) => (
             <div
               key={feature.title}
               className="group relative overflow-hidden rounded-2xl bg-white p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
-              onMouseEnter={() => setHoveredCard(index)}
-              onMouseLeave={() => setHoveredCard(null)}
             >
               <div className="absolute inset-0 bg-gradient-to-br opacity-0 group-hover:opacity-5 transition-opacity duration-300" />
               
