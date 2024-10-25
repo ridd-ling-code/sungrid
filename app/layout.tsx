@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import './globals.css';
 import { Bell, User } from 'lucide-react';
 
 export default function Layout({ children }: { children: React.ReactNode }) {
