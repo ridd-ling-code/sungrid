@@ -1,4 +1,4 @@
-import Layout from '@/app/layout.tsx';
+import Layout from '@/app/layout';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Select } from "@/components/ui/select"
 import { Input } from "@/components/ui/input"
